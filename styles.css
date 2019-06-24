@@ -9,96 +9,42 @@ body {
     background-color: #060AB2;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    display: flex;
 }
 
-hr {
-    border: 2px solid black;
+.memory-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .memory-card {
-    border: 2px solid aqua;
+    width: calc(25% - 10px);
+    height: (33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+}
+
+.memory-card:active {
+    transform: scale(.97);
+    transition: transform.2s;
 }
 
 .front-face,
 .back-face {
-    border: 2px solid deeppink;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #1c7ccc;
+    position: absolute;
 }
 
 img {
     width: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.cards {
-    height: 250px;
-    width: 150px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
 
 }
-
-#grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 25px;
-    justify-content: space-evenly;
-    margin-top: 50px;
-
-
-}
-
-.banaan {
-    background-image: url(./images/banaan.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    object-position:
-
-}
-
-.apple {
-    background-image: url(./images/apple.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-
-.strawberry {
-    background-image: url(./images/aardbei.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-
-.kiwi {
-    background-image: url(./images/kiwi.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-*/

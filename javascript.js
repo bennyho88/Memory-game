@@ -1,9 +1,8 @@
-var banana = document.querySelector(".banaan");
-var apple = document.querySelector(".apple");
-var strawberry = document.querySelector(".strawberry");
-var kiwi = document.querySelector(".kiwi");
-var card = document.querySelector(".card");
+const cards = document.querySelectorAll(".memory-card");
 
-card.addEventListener("click", card);
+cards.forEach(card => card.addEventListener("click", flipCard));
 
-function cardBack() {}
+function flipCard() {
+  console.log("I was clicked!");
+  console.log(this);
+}
