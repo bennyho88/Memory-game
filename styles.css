@@ -1,0 +1,50 @@
+.cards {
+    height: 250px;
+    width: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+
+}
+
+.banaan {
+    background-image: url(./images/banaan.png);
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+
+
+
+
+}
+
+.apple {
+    background-image: url(./images/apple.png);
+    background-size: contain;
+    width: 150px;
+    height: auto;
+
+}
+
+.strawberry {
+    background-image: url(./images/aardbei.jpg);
+    background-size: contain;
+
+}
+
+.kiwi {
+    background-image: url(./images/kiwi.jpg);
+    background-size: contain;
+
+}
