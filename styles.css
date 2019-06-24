@@ -1,3 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #060AB2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.memory-card {
+    border: 2px solid aqua;
+}
+
+.front-face,
+.back-face {
+    border: 2px solid deeppink;
+}
+
+img {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .cards {
     height: 250px;
     width: 150px;
@@ -20,31 +76,29 @@
 .banaan {
     background-image: url(./images/banaan.png);
     background-size: contain;
-    max-width: 100%;
-    max-height: 100%;
-
-
-
-
+    background-repeat: no-repeat;
+    object-position:
 
 }
 
 .apple {
     background-image: url(./images/apple.png);
     background-size: contain;
-    width: 150px;
-    height: auto;
+    background-repeat: no-repeat;
 
 }
 
 .strawberry {
     background-image: url(./images/aardbei.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
 .kiwi {
     background-image: url(./images/kiwi.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 
 }
+*/
