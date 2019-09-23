@@ -18,3 +18,5 @@ The cards are hard coded in HTML and styled with CSS, everything else was done w
 My name is Benny and I'm a junior web developer at BeCode Antwerp.
 
 ### Let's play:
+
+https://bennyho88.github.io/Memory-game/
